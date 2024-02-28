@@ -1,0 +1,21 @@
+{
+  "metadata": [
+    {
+      "description": 1,
+      "denom_units": [
+        {
+          "denom": "anryton",
+          "exponent": 0
+        },
+        {
+          "denom": "anryton",
+          "exponent": 18
+        }
+      ],
+      "base": "anryton",
+      "display": "anryton",
+      "name": "anryton",
+      "symbol": "ANRYTON"
+    }
+  ]
+}

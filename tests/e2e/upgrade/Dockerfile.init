@@ -1,0 +1,12 @@
+# argument to provide specific version of anryton node
+ARG INITIAL_VERSION
+FROM tharsishq/anryton:$INITIAL_VERSION
+
+WORKDIR /go/src/github.com/anryton/anryton
+
+COPY ./init-node.sh .
+
+# JSON-RPC server
+EXPOSE 8545
+
+CMD ["sh", "./init-node.sh"]
